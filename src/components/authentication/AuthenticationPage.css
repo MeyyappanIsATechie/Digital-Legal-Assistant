@@ -1,0 +1,109 @@
+/* src/components/AuthenticationPage.css */
+
+.AuthenticationPage {
+    text-align: center;
+  }
+  
+  /* Add more styles to match your design for AuthenticationPage */
+  /* You can customize these to fit your design */
+  
+  .Header {
+    background-color: #27ae60;
+    color: white;
+    padding: 20px;
+  }
+  
+  /*.Logo {
+     Add your logo styles 
+  }*/
+  
+  .HeaderText {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .Content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .Box {
+    border: 2px solid #27ae60;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for the form */
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  .Label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .Input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .Input:focus {
+    border-color: #27ae60;
+    outline: none;
+  }
+  
+  .Select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .Select:focus {
+    border-color: #27ae60;
+    outline: none;
+  }
+  
+  .SubmitButton {
+    background-color: #27ae60;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .SubmitButton:hover {
+    background-color: #219049;
+  }
+  
+  .ResetButton {
+    background-color: #ccc;
+    color: #333;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .ResetButton:hover {
+    background-color: #999;
+  }
+  

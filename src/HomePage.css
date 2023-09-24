@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #f8f9fa; 
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #000000; 
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  article {
+    max-width: 800px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+  }
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
